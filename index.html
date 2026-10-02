@@ -53,7 +53,8 @@ section{border-bottom:1px solid var(--line);padding:105px 0}
 
 
 
-.about{display:grid;grid-template-columns:1.15fr .85fr;gap:90px}.about-big{font-size:clamp(35px,5vw,68px);line-height:1;letter-spacing:-.07em;margin:0}.about-big i{font-family:Georgia,serif;font-weight:400}
+.about{display:grid;grid-template-columns:1.15fr .85fr;gap:90px}.founder-photo{width:100%;max-width:260px;height:260px;border:1px solid var(--line);object-fit:cover;display:block;margin-bottom:18px}.founder-photo-wrap{display:flex;flex-direction:column}
+.about-big{font-size:clamp(35px,5vw,68px);line-height:1;letter-spacing:-.07em;margin:0}.about-big i{font-family:Georgia,serif;font-weight:400}
 .person{border-top:1px solid var(--ink);padding-top:18px;margin-bottom:42px}.person h3{font-size:28px;letter-spacing:-.05em;margin:15px 0 8px}.person p{line-height:1.5;color:var(--muted)}.linkedin{display:inline-block;border-bottom:1px solid var(--ink);font:10px "DM Mono";padding-bottom:4px}
 .team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:55px}.team-card{background:var(--paper);min-height:340px;padding:18px;display:flex;flex-direction:column;position:relative;transition:.2s}.team-card:hover{background:#ebe7dc}.team-photo{height:190px;border:1px solid var(--line);background:#ddd8cd;overflow:hidden;position:relative}.team-photo img{width:100%;height:100%;object-fit:cover;object-position:center;display:block;filter:none;transition:transform .35s ease}.team-card:hover .team-photo img{transform:scale(1.03)}.team-photo:after{content:"LINKEDIN";position:absolute;right:8px;bottom:8px;background:var(--orange);border:1px solid var(--ink);padding:5px 7px;font:9px "DM Mono"}.team-index{font:10px "DM Mono";margin-top:16px;color:var(--muted)}.team-card h3{font-size:25px;letter-spacing:-.06em;margin:8px 0}.team-role{font:10px "DM Mono";text-transform:uppercase;color:var(--muted);min-height:30px}.team-card .linkedin{margin-top:auto;width:max-content}.team-note{font:10px "DM Mono";line-height:1.55;color:var(--muted);margin-top:14px;max-width:850px}
 @media(max-width:900px){.team-grid{grid-template-columns:1fr 1fr}}
@@ -234,13 +235,13 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:20px 0 35px;f
  <div class="about">
   <p class="about-big">WHY Z? is a <i>Gen-Z-native</i> project network built to connect ambitious students with startups and companies looking for fresh thinking, execution and experimentation.</p>
   <div>
-   <div class="person"><span class="label">FOUNDING MEMBER</span><h3>G. Sayantani M.B.</h3><p>Part of the founding team building the bridge between young technical talent and organizations looking for fresh ideation and project execution.</p><a class="linkedin" href="https://www.linkedin.com/in/g-sayantani-mb-65337230/" target="_blank" rel="noopener">LINKEDIN PROFILE ↗</a></div>
+   <div class="person"><span class="label">FOUNDING MEMBER</span><img class="founder-photo" src="assets/team/g-sayantani-mb.png" alt="G. Sayantani M.B. — profile photo" onerror="this.src='assets/team/g-sayantani-mb.png"><h3>G. Sayantani M.B.</h3><p>Part of the founding team building the bridge between young technical talent and organizations looking for fresh ideation and project execution.</p><a class="linkedin" href="https://www.linkedin.com/in/g-sayantani-mb-65337230/" target="_blank" rel="noopener">LINKEDIN PROFILE ↗</a></div>
    <div class="person"><span class="label">COLLABORATION ECOSYSTEM</span><p>Current ecosystem references include Ashok Leyland, Ford, The Invincible Fire and Sanghamitra Ventures, alongside startup-led projects and student teams.</p></div>
   </div>
  </div>
  <div class="team-grid">
   <a class="team-card" href="https://www.linkedin.com/in/g-sayantani-mb-65337230/" target="_blank" rel="noopener">
-   <div class="team-photo"><img src="assets/team/g-sayantani-mb.png" alt="G. Sayantani M.B. — profile photo"></div><div class="team-index">TEAM / 01</div><h3>G. Sayantani M.B.</h3><div class="team-role">Founding Member</div><span class="linkedin">LINKEDIN ↗</span>
+   <div class="team-photo"><img src="assets/team/g-sayantani-mb.png" alt="G. Sayantani M.B. — profile photo" onerror="this.src='assets/team/g-sayantani-mb.png"></div><div class="team-index">TEAM / 01</div><h3>G. Sayantani M.B.</h3><div class="team-role">Founding Member</div><span class="linkedin">LINKEDIN ↗</span>
   </a>
   <a class="team-card" href="https://www.linkedin.com/in/akshay-p-raj/" target="_blank" rel="noopener">
    <div class="team-photo"><img src="https://unavatar.io/linkedin/akshay-p-raj" alt="Akshay Perumal Raj — LinkedIn profile photo" loading="lazy"></div><div class="team-index">TEAM / 02</div><h3>Akshay Perumal Raj</h3><div class="team-role">Team Member</div><span class="linkedin">LINKEDIN ↗</span>
@@ -258,7 +259,7 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:20px 0 35px;f
    <div class="team-photo"><img src="https://unavatar.io/linkedin/benishaaloysius-pros-1ba125395" alt="Benishaaloysius Pros — LinkedIn profile photo" loading="lazy"></div><div class="team-index">TEAM / 06</div><h3>Benishaaloysius Pros</h3><div class="team-role">Team Member</div><span class="linkedin">LINKEDIN ↗</span>
   </a>
  </div>
- <p class="team-note">COLOURED TEAM PORTRAITS. Sayantani's supplied profile image is bundled locally with the site. The other portraits use a public LinkedIn-avatar resolver tied to each supplied LinkedIn profile URL; if a provider blocks an image request, the LinkedIn card and profile link still remain functional.</p>
+ <p class="team-note">COLOURED TEAM PORTRAITS. Sayantani's supplied profile image is bundled locally and also has an inline fallback, so her portrait does not depend on LinkedIn or a third-party image service. The other portraits use public LinkedIn-avatar references and remain clickable even if an image provider blocks a request.</p>
 </div></section>
 
 
