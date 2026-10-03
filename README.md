@@ -1,509 +1,416 @@
-WHY Z? = YZ=?Z
+# WHY Z? = YZ=?Z
 
-A Gen-Z-native project and innovation network connecting student builders, startups and companies through real projects, technical execution and fresh ideation.
+### `STUDENTS × COMPANIES × PROJECTS × AGENTS`
 
-The website is designed as a hybrid of a brutalist engineering lab, editorial portfolio, technical research studio and experimental Gen-Z agency.
+> **A Gen-Z-native project & innovation network for people who actually want to build.**
 
-What the site communicates
+[![Live Work](https://img.shields.io/badge/LIVE_WORK-FF6B00?style=for-the-badge\&logo=vercel\&logoColor=white)](#-live-work)
+[![Agent Lab](https://img.shields.io/badge/AGENT_LAB-111111?style=for-the-badge\&logo=openai\&logoColor=white)](#-agent-lab)
+[![Projects](https://img.shields.io/badge/PROJECTS-6-FF6B00?style=for-the-badge)](#-live-work)
+[![Static Site](https://img.shields.io/badge/STATIC_SITE-GITHUB_PAGES-222222?style=for-the-badge\&logo=github\&logoColor=white)](#-deploy)
 
-WHY Z? is built around a simple loop:
+---
 
-STUDENTS → REAL PROBLEMS → PROJECTS → COMPANIES → MORE BUILDERS
+## `01` — WHAT IS WHY Z?
 
-The site separates the ecosystem into clear layers:
+**WHY Z?** connects student builders, startups and companies through:
 
+```text
+REAL PROBLEMS
+      ↓
+   BUILDERS
+      ↓
+   PROJECTS
+      ↓
+   COMPANIES
+      ↓
+ MORE BUILDERS
+      ↺
+```
 
+No portfolio theatre.
 
+No generic startup directory.
 
+No **"AI-powered"** slapped onto everything.
 
-WHY Z? — the network and the reason it exists.
+**Real briefs → real execution → real projects.**
 
+---
 
+## `02` — THE VIBE
 
-LIVE WORK — real project builds with large browser-style previews.
+WHY Z? sits somewhere between:
 
+`BRUTALIST ENGINEERING LAB`
+`×`
+`EDITORIAL STUDIO`
+`×`
+`TECHNICAL RESEARCH SPACE`
+`×`
+`GEN-Z EXPERIMENTAL AGENCY`
 
+Think:
 
-ABOUT — founding member and collaboration ecosystem.
+> **graph paper + browser windows + technical labels + oversized type + controlled chaos**
 
+The site should feel like a place where things are **being built**, not a brochure explaining that things *could* be built.
 
+---
 
-AGENT LAB — AI agents presented as products rather than generic chatbots.
+# `03` — LIVE WORK
 
+### `REAL PROJECTS. REAL BUILDS. REAL LINKS.`
 
+| #    | PROJECT                     | STACK / DOMAIN                   | STATUS  |
+| ---- | --------------------------- | -------------------------------- | ------- |
+| `01` | **Smart Waste System**      | IoT × AI / Waste Segregation     | 🟢 LIVE |
+| `02` | **Pistons Autopedia**       | Automotive / Vehicle Knowledge   | 🟢 LIVE |
+| `03` | **Rakshak**                 | Cybersecurity / Threat Reporting | 🟢 LIVE |
+| `04` | **Vayunetra**               | Satellite AQI / ML               | 🟢 LIVE |
+| `05` | **Smart Attendance System** | Computer Vision × IoT            | 🟢 LIVE |
+| `06` | **Tendrix**                 | Robotics × ML / L&T              | 🟢 LIVE |
 
-REGISTER — a persistent route for companies/startups to submit a project brief.
+### SHIP IT → OPEN IT
 
+**01 — Smart Waste System**
+[![Open](https://img.shields.io/badge/OPEN_LIVE_SITE-FF6B00?style=flat-square\&logo=vercel\&logoColor=white)](https://shuddh-main-2.vercel.app)
 
+**02 — Pistons Autopedia**
+[![Open](https://img.shields.io/badge/OPEN_LIVE_SITE-FF6B00?style=flat-square\&logo=vercel\&logoColor=white)](https://piston-s-autopedia-cnm374a2y-theinvinciblefire-8003s-projects.vercel.app)
 
-CONNECT — direct email, phone and WhatsApp contact.
+**03 — Rakshak**
+[![Open](https://img.shields.io/badge/OPEN_LIVE_SITE-FF6B00?style=flat-square\&logo=vercel\&logoColor=white)](https://rakshak-weld.vercel.app)
 
+**04 — Vayunetra**
+[![Open](https://img.shields.io/badge/OPEN_LIVE_SITE-FF6B00?style=flat-square\&logo=vercel\&logoColor=white)](https://vayunetra-five.vercel.app)
 
+**05 — Smart Attendance System**
+[![Open](https://img.shields.io/badge/OPEN_LIVE_SITE-FF6B00?style=flat-square\&logo=github\&logoColor=white)](https://sayantani9.github.io/SMART-ATTENDANCE-SYSTEM_COGNIZANT/)
 
-Live project showcase
+**06 — Tendrix**
+[![Open](https://img.shields.io/badge/OPEN_LIVE_SITE-FF6B00?style=flat-square\&logo=vercel\&logoColor=white)](https://tendrix-site.vercel.app/#innovations)
 
-The current project section contains six builds. CinderPeak has been removed from this version.
+---
 
+# `04` — HOW PROJECTS APPEAR
 
+Each build gets a full browser-style showcase:
 
+```text
+┌──────────────────────────────────────────┐
+│ ● ● ●                         PROJECT 01 │
+├──────────────────────────────────────────┤
+│                                          │
+│              LIVE WEBSITE                │
+│                                          │
+├──────────────────────────────────────────┤
+│ PROJECT                                  │
+│ DOMAIN / CATEGORY                        │
+│ WHAT IT DOES                             │
+│ METRIC / OUTPUT                          │
+│ WHY IT MATTERS                           │
+│                                          │
+│              [ OPEN LIVE ↗ ]             │
+└──────────────────────────────────────────┘
+```
 
+The preview uses a lazy-loaded `iframe` where the external website permits embedding.
 
+If a project blocks iframe embedding:
 
+**the project still ships.**
 
-Project
+`OPEN LIVE SITE ↗` takes visitors directly there.
 
+---
 
+# `05` — AGENT LAB
 
-Focus
+### `PROBLEM → AGENT → TOOLS → ACTION → OUTCOME`
 
+The Agent Lab is for **actual AI systems**, not chatbot-shaped profile cards.
 
+Every agent should eventually answer:
 
-Live site
+| FIELD     | WHAT IT TELLS              |
+| --------- | -------------------------- |
+| `AGENT`   | What is it?                |
+| `DOES`    | What does it actually do?  |
+| `FOR`     | Who uses it?               |
+| `PROBLEM` | What does it solve?        |
+| `ACTIONS` | What can it execute?       |
+| `STACK`   | Models / APIs / tools      |
+| `STATUS`  | Live / Beta / Private      |
+| `DEMO`    | Working demo               |
+| `GITHUB`  | Public repository          |
+| `MEDIA`   | Screenshot / product video |
 
+**Build agents like products.**
 
+Not:
 
+> *"Hi, I'm an AI assistant."*
 
+---
 
-Smart Waste System
+# `06` — SHIP YOUR PROJECT
 
+Got something worth building?
 
+### STUDENT
 
-IoT + AI / waste segregation
+Have a prototype, research idea or weird technical experiment?
 
+### STARTUP
 
+Have a problem that needs builders?
 
-https://shuddh-main-2.vercel.app
+### COMPANY
 
+Have a real-world brief that needs execution?
 
+### COLLABORATOR
 
+Want to build, test, research or ship?
 
+**Send it.**
 
-Pistons Autopedia
+### 📩 EMAIL
 
+**[sanghamitra.ventures@gmail.com](mailto:sanghamitra.ventures@gmail.com)**
 
+[![Email](https://img.shields.io/badge/EMAIL-FF6B00?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:sanghamitra.ventures@gmail.com)
 
-Automotive / vehicle knowledge
+### 💬 WHATSAPP
 
+[![WhatsApp](https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge\&logo=whatsapp\&logoColor=white)](https://wa.me/919345994213)
 
+### 💼 LINKEDIN
 
-https://piston-s-autopedia-cnm374a2y-theinvinciblefire-8003s-projects.vercel.app
+**For shipping projects, collaborations, opportunities and getting your work in front of the network:**
 
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/)
 
+> Replace the LinkedIn URL above with the project's actual WHY Z? / Sanghamitra Ventures LinkedIn profile before publishing.
 
+---
 
+# `07` — REGISTER A PROJECT
 
-Rakshak
+Companies and startups can submit:
 
+```text
+NAME
+COMPANY / STARTUP
+EMAIL
+PHONE / WHATSAPP
+PROJECT / IDEA
+COLLABORATION TYPE
+PROJECT BRIEF
+TECH / SKILLS REQUIRED
+TIMELINE
+BUDGET / STIPEND
+EXISTING PROJECT LINK
+ADDITIONAL NOTES
+```
 
+The default static-site flow generates a pre-addressed email to:
 
-Cybersecurity / threat reporting
+`	sanghamitra.ventures@gmail.com`
 
+No backend required.
 
+For automatic submissions, configure:
 
-https://rakshak-weld.vercel.app
+```js
+const FORM_ENDPOINT = "";
+```
 
+with a trusted serverless/form endpoint.
 
+### 🔐 NEVER COMMIT
 
+`API KEYS` · `SMTP PASSWORDS` · `TOKENS` · `DATABASE CREDENTIALS` · `PRIVATE AGENT CREDENTIALS`
 
+If it is secret:
 
-Vayunetra
+**it does not belong in the repo.**
 
+---
 
+# `08` — TECH / STRUCTURE
 
-Satellite AQI forecasting / ML
-
-
-
-https://vayunetra-five.vercel.app
-
-
-
-
-
-Smart Attendance System
-
-
-
-Computer vision + IoT
-
-
-
-https://sayantani9.github.io/SMART-ATTENDANCE-SYSTEM_COGNIZANT/
-
-
-
-
-
-Tendrix
-
-
-
-Robotics + ML / L&T project
-
-
-
-https://tendrix-site.vercel.app/#innovations
-
-
-
-Project display behaviour
-
-Each project is shown as a large browser-style display containing a lazy-loaded iframe of the live website, followed by:
-
-
-
-
-
-project name
-
-
-
-domain / category
-
-
-
-plain-language explanation
-
-
-
-reported metric or output
-
-
-
-"What it shows" purpose line
-
-
-
-OPEN LIVE SITE action
-
-Some external websites may restrict iframe embedding through their own security headers. If a preview does not render, the OPEN LIVE SITE button still takes the visitor directly to the project.
-
-Contact
-
-Email: sanghamitra.ventures@gmail.com
-Phone / WhatsApp: +91 93459 94213
-WhatsApp: https://wa.me/919345994213
-
-Project registration
-
-The registration form collects:
-
-
-
-
-
-Name
-
-
-
-Company / Startup
-
-
-
-Email
-
-
-
-Phone / WhatsApp
-
-
-
-Project / Idea name
-
-
-
-Collaboration type
-
-
-
-Project brief
-
-
-
-Tech / skills required
-
-
-
-Timeline
-
-
-
-Budget / stipend
-
-
-
-Existing project link
-
-
-
-Additional notes
-
-
-
-Email behaviour
-
-The site is intentionally safe to host as a static GitHub Pages website. By default, the form creates a pre-addressed email to:
-
-sanghamitra.ventures@gmail.com
-
-The visitor confirms and sends the email from their mail client.
-
-For true automatic submission without opening an email client, set the FORM_ENDPOINT constant in index.html to a trusted serverless/form endpoint. Do not place SMTP passwords, API secrets or private credentials in this public repository.
-
-Agent Lab
-
-The Agent Lab is structured for real AI systems, not generic chatbot cards. Each agent should eventually communicate:
-
-Problem → Agent → Tools → Action → Outcome
-
-When adding an agent, replace the placeholder card with:
-
-
-
-
-
-Agent name
-
-
-
-What it does
-
-
-
-Who it is for
-
-
-
-Problem it solves
-
-
-
-Actual actions/capabilities
-
-
-
-Models / APIs / tools
-
-
-
-Live / beta / private status
-
-
-
-Demo link
-
-
-
-GitHub link, if public
-
-
-
-Screenshot or product video, if useful
-
-
-
-File structure
-
+```text
 WHY-Z-GitHub-Site-v4/
+│
 ├── index.html
 ├── README.md
 ├── .nojekyll
+│
 ├── assets/
 │   └── why-z-logo.png
+│
 └── .github/
     └── workflows/
         └── pages.yml
+```
 
+### No framework.
 
+### No build step.
 
-Deploy on GitHub Pages
+### No unnecessary dependencies.
 
-This is a static site. No Hostinger account or custom domain is required to publish the current version. GitHub Pages can host the site directly from the repository.
+### Just ship.
 
-Option A — GitHub Actions
+---
 
-The repository already includes:
+# `09` — DEPLOY
 
+[![Deploy](https://img.shields.io/badge/DEPLOY-GITHUB_PAGES-222222?style=for-the-badge\&logo=github\&logoColor=white)](https://pages.github.com/)
+
+### GitHub Actions
+
+The repository already contains:
+
+```text
 .github/workflows/pages.yml
+```
 
+1. Create repository.
+2. Push files to `main`.
+3. Open **Settings → Pages**.
+4. Select **GitHub Actions**.
+5. Open **Actions**.
+6. Wait for deployment.
+7. Ship the URL.
 
+[![GitHub Pages Docs](https://img.shields.io/badge/GITHUB_PAGES-DOCS-222222?style=flat-square\&logo=github)](https://docs.github.com/en/pages/getting-started-with-github-pages)
 
+---
 
+# `10` — EDITING
 
-Create a new GitHub repository.
+Most content lives inside:
 
+```text
+index.html
+```
 
+### CONTACT
 
-Upload the contents of this folder to the repository.
-
-
-
-Push the files to main.
-
-
-
-Open Settings → Pages.
-
-
-
-Under Build and deployment, select GitHub Actions if it is not already selected.
-
-
-
-Open the Actions tab and wait for the Pages workflow to complete.
-
-
-
-GitHub will provide the published site URL.
-
-GitHub documents both branch-based publishing and GitHub Actions workflows for Pages. See: https://docs.github.com/en/pages/getting-started-with-github-pages
-
-Option B — Publish from a branch
-
-For a simple static site, GitHub Pages can also publish the repository directly from a selected branch/folder. Keep index.html at the top level of the publishing source.
-
-Editing the site
-
-Most content lives directly in index.html, so no build tool or framework is required.
-
-Change contact information
-
-Search for:
-
+```js
 const CONTACT_EMAIL = "sanghamitra.ventures@gmail.com";
 const FORM_ENDPOINT = "";
+```
 
+### PROJECTS
 
+Update:
 
-Add or remove projects
+```text
+#projects
+```
 
-Update both:
+and the:
 
+```js
+projects
+```
 
+array near the bottom of `index.html`.
 
+Keep project numbering + array order aligned so the correct project opens in the detail modal.
 
-
-the project cards inside the #projects section
-
-
-
-the projects JavaScript array near the bottom of index.html
-
-Keep the project number and array order aligned so the detail modal opens the correct project.
-
-Change the logo
+### LOGO
 
 Replace:
 
+```text
 assets/why-z-logo.png
+```
 
-with the updated logo while keeping the same filename, or update the <img src> path in index.html.
+or update the `<img src>` path.
 
-Design system
+---
 
-The visual system intentionally combines:
+# `11` — DESIGN SYSTEM
 
+```text
+GRAPH PAPER
+    +
+HEAVY BLACK BORDERS
+    +
+ORANGE ACCENT
+    +
+MONOSPACE LABELS
+    +
+EDITORIAL TYPE
+    +
+BROWSER WINDOWS
+    +
+ASYMMETRIC GRIDS
+    +
+TECHNICAL UI
+```
 
+### RULES
 
+`NO CORPORATE GLOSS`
 
+`NO GENERIC AI STOCK ART`
 
-graph-paper background
+`NO OVERDESIGNED GRADIENTS`
 
+`NO EMPTY MARKETING COPY`
 
+`YES TO REAL PROJECTS`
 
-wide grid spacing
+`YES TO EXPERIMENTS`
 
+`YES TO BUILDERS`
 
+`YES TO SHIPPING`
 
-black engineering-style borders
+---
 
+# `12` — ECOSYSTEM
 
+Project and collaboration references currently include:
 
-orange as the primary accent
+[![Ashok Leyland](https://img.shields.io/badge/ASHOK_LEYLAND-111111?style=flat-square)](#)
+[![Ford](https://img.shields.io/badge/FORD-111111?style=flat-square)](#)
+[![The Invincible Fire](https://img.shields.io/badge/THE_INVINCIBLE_FIRE-111111?style=flat-square)](#)
+[![Sanghamitra Ventures](https://img.shields.io/badge/SANGHAMITRA_VENTURES-FF6B00?style=flat-square)](#)
+[![Student Teams](https://img.shields.io/badge/STUDENT_TEAMS-111111?style=flat-square)](#)
 
+Project metrics and claims represent supplied project information and should be updated when the underlying project data changes.
 
+---
 
-monospaced technical labels
+# `13` — THE POINT
 
+```text
+WHY Z?
 
+BECAUSE BUILDING
+SHOULD BE A LOOP.
 
-large editorial typography
+LEARN
+ ↓
+BUILD
+ ↓
+SHIP
+ ↓
+COLLABORATE
+ ↓
+BUILD AGAIN
+ ↺
+```
 
+### `STUDENTS × COMPANIES × PROJECTS × AGENTS`
 
+# **WHY Z? = YZ=?Z**
 
-browser-window project displays
-
-
-
-asymmetric layouts
-
-
-
-minimal gradients and no generic AI stock imagery
-
-The goal is to make the site feel like a working lab + project network, not a conventional corporate portfolio.
-
-Important security note
-
-This repository is intended to be publicly deployable. Never commit:
-
-
-
-
-
-API keys
-
-
-
-SMTP credentials
-
-
-
-passwords
-
-
-
-private access tokens
-
-
-
-database credentials
-
-
-
-private agent credentials
-
-Use a serverless function or trusted form provider for anything that requires a secret.
-
-Credits / ecosystem references
-
-The current site references project work and collaboration context involving:
-
-
-
-
-
-Ashok Leyland
-
-
-
-Ford
-
-
-
-The Invincible Fire
-
-
-
-Sanghamitra Ventures
-
-
-
-student project teams
-
-Project claims and metrics are presented as supplied project information and should be updated whenever the underlying project data changes.
-
-
-
-WHY Z? = YZ=?Z
-STUDENTS × COMPANIES × PROJECTS × AGENTS
+**BUILD SOMETHING REAL. SHIP IT. 🚀**
