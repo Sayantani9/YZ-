@@ -1,6 +1,6 @@
 # WHY Z? = YZ=?Z
 
-### `STUDENTS × COMPANIES × PROJECTS × AGENTS`
+### `STUDENTS × COMPANIES × PROJECTS × AGENTS'!!! GEN-Z COOLLESTTT?
 
 > **A Gen-Z-native project & innovation network for people who actually want to build.**
 
