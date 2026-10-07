@@ -57,6 +57,8 @@ section{border-bottom:1px solid var(--line);padding:105px 0}
 
 
 
+.portfolio-grid{display:grid;grid-template-columns:1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+.portfolio-card{background:var(--paper);padding:18px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(300px,.8fr);gap:24px;align-items:stretch}.portfolio-card:hover{background:#ebe7dc}.portfolio-preview{height:430px;border:1px solid var(--ink);position:relative;overflow:hidden;background:#ebe8df;isolation:isolate}.portfolio-info{padding:6px 8px 8px;display:flex;flex-direction:column;justify-content:center}.portfolio-info h3{font-size:clamp(40px,5vw,72px);line-height:.86;letter-spacing:-.08em;margin:20px 0 14px}.portfolio-info p{line-height:1.5;max-width:590px;color:#45433e;margin:0 0 22px}
 .about{display:grid;grid-template-columns:1.15fr .85fr;gap:90px}.founder-photo{width:100%;max-width:260px;height:260px;border:1px solid var(--line);object-fit:cover;display:block;margin-bottom:18px}.founder-photo-wrap{display:flex;flex-direction:column}
 .about-big{font-size:clamp(35px,5vw,68px);line-height:1;letter-spacing:-.07em;margin:0}.about-big i{font-family:Georgia,serif;font-weight:400}
 .person{border-top:1px solid var(--ink);padding-top:18px;margin-bottom:42px}.person h3{font-size:28px;letter-spacing:-.05em;margin:15px 0 8px}.person p{line-height:1.5;color:var(--muted)}.linkedin{display:inline-block;border-bottom:1px solid var(--ink);font:10px "DM Mono";padding-bottom:4px}
@@ -103,14 +105,14 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:20px 0 35px;f
 .contact-links{display:flex;flex-direction:column;justify-content:center;gap:12px;font:11px "DM Mono";text-align:right}
 .contact-links a{color:var(--ink)}
 
-@media(max-width:800px){.wrap{width:calc(100% - 26px)}.nav{height:65px}.brand img{width:40px;height:40px}.brand span{font-size:14px}.navlinks{gap:12px;font-size:9px}.navlinks a:nth-child(2){display:none}.hero{grid-template-columns:1fr;padding:70px 0 45px}.hero-note{margin-top:50px;max-width:270px}.head{grid-template-columns:55px 1fr}section{padding:75px 0}.network,.projects,.about,.cta{grid-template-columns:1fr}.net:nth-child(odd){border-right:0}.project{grid-template-columns:1fr;gap:18px}.project-preview{height:300px}.site-display iframe{transform:scale(.43)}.mausam-scroll-display img{width:100%;height:auto}.roadpulse-fallback{padding:20px}.rf-grid{grid-template-columns:1fr 1fr}.mausam-gallery-note{font-size:8px;flex-direction:column;gap:6px}.project h3{font-size:48px}.about{gap:50px}footer{flex-direction:column}.modal h3{font-size:48px}.form-row{grid-template-columns:1fr}.form-submit{align-items:flex-start;flex-direction:column}.float-register{right:12px;bottom:12px}.float-register span{font-size:9px}}
+@media(max-width:800px){.wrap{width:calc(100% - 26px)}.nav{height:65px}.brand img{width:40px;height:40px}.brand span{font-size:14px}.navlinks{gap:12px;font-size:9px}.navlinks a:nth-child(2){display:none}.hero{grid-template-columns:1fr;padding:70px 0 45px}.hero-note{margin-top:50px;max-width:270px}.head{grid-template-columns:55px 1fr}section{padding:75px 0}.network,.projects,.portfolio-card,.about,.cta{grid-template-columns:1fr}.net:nth-child(odd){border-right:0}.project{grid-template-columns:1fr;gap:18px}.project-preview,.portfolio-preview{height:300px}.site-display iframe{transform:scale(.43)}.mausam-scroll-display img{width:100%;height:auto}.roadpulse-fallback{padding:20px}.rf-grid{grid-template-columns:1fr 1fr}.mausam-gallery-note{font-size:8px;flex-direction:column;gap:6px}.project h3{font-size:48px}.about{gap:50px}footer{flex-direction:column}.modal h3{font-size:48px}.form-row{grid-template-columns:1fr}.form-submit{align-items:flex-start;flex-direction:column}.float-register{right:12px;bottom:12px}.float-register span{font-size:9px}}
 
 .image-display{display:flex;align-items:center;justify-content:center;background:#111;overflow:hidden}.image-display img{width:100%;height:100%;object-fit:contain;display:block}.founder-photo{object-position:center top!important}.title-bracket{font-size:.42em;letter-spacing:-.03em;vertical-align:middle;white-space:nowrap}.mausam-gallery-note{border-top:1px solid var(--ink);margin-top:20px;padding-top:16px;display:flex;justify-content:space-between;gap:12px;font:9px "DM Mono";text-transform:uppercase;color:var(--muted)}</style>
 </head>
 <body>
 <header class="nav"><div class="wrap navin">
   <a href="#top" class="brand"><img src="assets/why-z-logo.svg" alt="WHY Z? logo"><span>WHY Z? <small>= YZ=?Z</small></span></a>
-  <nav class="navlinks"><a href="#why">WHY Z?</a><a href="#projects">PROJECTS</a><a href="#about">ABOUT</a><a href="#connect">CONNECT ↗</a></nav>
+  <nav class="navlinks"><a href="#why">WHY Z?</a><a href="#projects">PROJECTS</a><a href="#portfolios">PORTFOLIOS</a><a href="#about">ABOUT</a><a href="#connect">CONNECT ↗</a></nav>
 </div></header>
 
 <main id="top">
@@ -390,8 +392,30 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:20px 0 35px;f
       </article>
 </div></section>
 
+<section id="portfolios"><div class="wrap">
+ <div class="head"><div class="num">05 / PORTFOLIOS</div><div><h2>Portfolios<br>we've built.</h2><p class="lead">A separate archive for portfolio websites developed through the network. Open the live build or inspect it directly from the embedded preview.</p></div></div>
+ <div class="portfolio-grid">
+  <article class="portfolio-card">
+   <div class="portfolio-preview">
+    <div class="preview-chrome"><span></span><span></span><span></span><b>01</b><span class="preview-url">aprportfolio.vercel.app</span></div>
+    <div class="site-display"><iframe src="https://aprportfolio.vercel.app/" title="APR Portfolio live preview" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <div class="preview-overlay">LIVE PORTFOLIO PREVIEW<b>APR PORTFOLIO</b></div>
+    <div class="preview-corner">↗</div>
+   </div>
+   <div class="portfolio-info">
+    <div class="project-top"><span>PORTFOLIO / 01</span><span>APR / LIVE</span></div>
+    <h3>APR <span class="title-bracket">[PORTFOLIO]</span></h3>
+    <p>Portfolio website build included in the WHY Z? portfolio archive, with the live experience embedded directly into the site.</p>
+    <div class="metric">Live portfolio · web experience · direct build access</div>
+    <p class="project-purpose">WHAT IT SHOWS / Portfolio design / personal web presence / live deployment</p>
+    <a class="open" href="https://aprportfolio.vercel.app/" target="_blank" rel="noopener">OPEN PORTFOLIO <span>↗</span></a>
+   </div>
+  </article>
+ </div>
+</div></section>
+
 <section id="about"><div class="wrap">
- <div class="head"><div class="num">05 / ABOUT</div><div><h2>Built by people<br>who build.</h2></div></div>
+ <div class="head"><div class="num">06 / ABOUT</div><div><h2>Built by people<br>who build.</h2></div></div>
  <div class="about">
   <p class="about-big">WHY Z? is a <i>Gen-Z-native</i> project network built to connect ambitious students with startups and companies looking for fresh thinking, execution and experimentation.</p>
   <div>
@@ -407,7 +431,7 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:20px 0 35px;f
    <div class="team-photo"><img src="https://unavatar.io/linkedin/akshay-p-raj" alt="Akshay Perumal Raj — LinkedIn profile photo" loading="lazy"></div><div class="team-index">TEAM / 02</div><h3>Akshay Perumal Raj</h3><div class="team-role">Team Member</div><span class="linkedin">LINKEDIN ↗</span>
   </a>
   <a class="team-card" href="https://www.linkedin.com/in/sarvajeeth-t-a60b1a331/" target="_blank" rel="noopener">
-   <div class="team-photo"><img src="https://raw.githubusercontent.com/Sayantani9/YZ-/main/assets/sarvajeeth_prf.jpeg" alt="Sarvajeeth T — LinkedIn profile photo" loading="lazy"></div><div class="team-index">TEAM / 03</div><h3>Sarvajeeth T</h3><div class="team-role">Team Member</div><span class="linkedin">LINKEDIN ↗</span>
+   <div class="team-photo"><img src="assets/team/sarvajeeth_prf.png" alt="Sarvajeeth T — LinkedIn profile photo" loading="lazy"></div><div class="team-index">TEAM / 03</div><h3>Sarvajeeth T</h3><div class="team-role">Team Member</div><span class="linkedin">LINKEDIN ↗</span>
   </a>
   <a class="team-card" href="https://www.linkedin.com/in/sanjhana-selvakumar-3bb3a9327/" target="_blank" rel="noopener">
    <div class="team-photo"><img src="https://raw.githubusercontent.com/Sayantani9/YZ-/main/assets/sanjhana_prf.jpeg" alt="Sanjhana Selvakumar — LinkedIn profile photo" loading="lazy"></div><div class="team-index">TEAM / 04</div><h3>Sanjhana Selvakumar</h3><div class="team-role">Team Member</div><span class="linkedin">LINKEDIN ↗</span>
@@ -419,7 +443,7 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:20px 0 35px;f
    <div class="team-photo"><img src="https://unavatar.io/linkedin/benishaaloysius-pros-1ba125395" alt="Benishaaloysius Pros — LinkedIn profile photo" loading="lazy"></div><div class="team-index">TEAM / 06</div><h3>Benishaaloysius Pros</h3><div class="team-role">Team Member</div><span class="linkedin">LINKEDIN ↗</span>
   </a>
  </div>
- <p class="team-note">TEAM PORTRAITS. Sayantani's supplied colour profile image is bundled locally. All team cards remain directly linked to their LinkedIn profiles.</p>
+ <p class="team-note">TEAM PORTRAITS. Sayantani's supplied colour profile image is bundled locally. Sarvajeeth's card is wired to <code>assets/team/sarvajeeth_prf.png</code>. Add that exact file to the folder for the portrait to render locally. All team cards remain directly linked to their LinkedIn profiles.</p>
 </div></section>
 
 
@@ -427,7 +451,7 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:20px 0 35px;f
 <section id="agents">
   <div class="wrap">
     <div class="head">
-      <div class="num">06 / AGENT LAB</div>
+      <div class="num">07 / AGENT LAB</div>
       <div>
         <h2>Not just apps.<br>Agents that work.</h2>
         <p class="lead">WHY Z? also builds AI agents for real workflows. We present each agent like a product: what it does, who it is for, what it can actually execute, and where to try it.</p>
@@ -473,7 +497,7 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:20px 0 35px;f
 <section id="register">
   <div class="wrap">
     <div class="head">
-      <div class="num">07 / REGISTER</div>
+      <div class="num">08 / REGISTER</div>
       <div>
         <h2>Got a project?<br>Bring it here.</h2>
         <p class="lead">Tell WHY Z? what you're building, what problem needs solving and what kind of young talent or project team you need.</p>
@@ -520,7 +544,7 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:20px 0 35px;f
 
 <section id="contact">
   <div class="wrap contact-strip">
-    <div><span class="num">07 / CONTACT</span><h2>Let's make something<br>that should exist.</h2></div>
+    <div><span class="num">08 / CONTACT</span><h2>Let's make something<br>that should exist.</h2></div>
     <div class="contact-links">
       <a href="mailto:sanghamitra.ventures@gmail.com">sanghamitra.ventures@gmail.com ↗</a>
       <a href="tel:+919345994213">+91 93459 94213 ↗</a>
